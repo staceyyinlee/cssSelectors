@@ -1,0 +1,42 @@
+* {
+	font-family: verdana;
+	background-color: #D2C1FE;
+}
+ 
+
+body,html {
+	margin: 5px;
+	padding: 15px;
+}
+
+.box {
+	display: flex;
+  	border: 4px solid black;
+  	padding: 20px;
+  	margin: 10px;
+  	height: 10vh;
+  	width: 75vw;
+  	background-color: #C1FECA;
+
+}
+
+div p {
+  color: blue;
+}
+
+.highlightTitle {
+	background-color: #F4F8B3;
+}
+
+.highlight {
+  background-color: #C1EDFE;
+}
+
+ul > li:first-child {
+  font-weight: bold;
+}
+
+h1 + h3 {
+  font-style: italic;
+}
+
